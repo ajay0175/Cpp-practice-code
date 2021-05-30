@@ -1,12 +1,12 @@
 #include<bits/stdc++.h>
+#define lln   long long int
+#define fst   ios_base::sync_with_stdio(false); cin.tie(NULL);
 using  namespace std;
 
 int main(){
 
-
-    ios_base::sync_with_stdio(false);
-    cin.tie(NULL);
-
+    fst
+    
     #ifndef ONLINE_JUDEGE
     freopen("INPUT.txt", "r", stdin);
     freopen("OUTPUT.txt", "w", stdout);
