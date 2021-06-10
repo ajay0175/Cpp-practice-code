@@ -1,15 +1,11 @@
+#include<bits/stdc++.h>
+using  namespace std;
 
-int main ()
-{ 
-    int n;
-    cin>>n;
+#define int   long long
+#define fst   ios_base::sync_with_stdio(false); cin.tie(NULL);
 
-    for(int i=1;i<=n;i++){
-        for (int j=1;j<=n+1-i;j++){
-        cout<<j<<" " ;
-        }
-    cout<<endl;
-}
 
-    return 0;
-}
+int32_t main(){
+
+    fst
+    
