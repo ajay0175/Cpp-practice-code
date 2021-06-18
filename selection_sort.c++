@@ -3,9 +3,15 @@ using namespace std;
 
 int main()
 { 
-int n;
-cin>>n;
-int a[n];
+    #ifndef ONLINE_JUDGE
+    freopen("INPUT.txt", "r", stdin);
+    freopen("OUTPUT.txt", "w", stdout);
+    #endif
+
+
+ int n;
+ cin>>n;
+ int a[n];
 for(int i=0;i<n;i++){
     cin>>a[i];
 }
