@@ -9,22 +9,21 @@ using  namespace std;
 #define ss    second
 #define fst   ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
 #define MOD   1000000007
- 
- 
+
+
 int32_t main() {
 
-    fst
-    
-    #ifndef ONLINE_JUDGE
-    freopen("INPUT.txt", "r", stdin);
+	fst
+
+	#ifndef ONLINE_JUDGE
+	freopen("INPUT.txt", "r", stdin);
     freopen("OUTPUT.txt", "w", stdout);
-    #endif
+	#endif
 
-    int t;
-    cin>>t;
-    while(t--){
-      
-    }
-    return 0;
+	int t;
+	cin>>t;
+	while(t--){
 
+	}
+	return 0;
 }

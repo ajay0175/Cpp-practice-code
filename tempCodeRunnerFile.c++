@@ -1,6 +1,5 @@
-#include<bits/stdc++.h>
-using  namespace std;
-
-#define int   long long
-#define ms    multiset
-#define pb    push_back
+ // for (int i = 0; i < n; i++)
+        // {
+        //     cout<<a[i]<<" ";
+        // }cout<<endl;
+        
