@@ -1,5 +1,3 @@
- // for (int i = 0; i < n; i++)
-        // {
-        //     cout<<a[i]<<" ";
-        // }cout<<endl;
-        
+
+    prearray[i] = prearray[i-1] + a[i];
+   }
