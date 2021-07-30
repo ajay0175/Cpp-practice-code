@@ -11,12 +11,12 @@ using  namespace std;
 #define MOD   1000000007
 
 void io(){
-     fst
+   fst
 
-    #ifndef ONLINE_JUDGE
-    freopen("INPUT.txt", "r", stdin);
-    freopen("OUTPUT.txt", "w", stdout);
-    #endif
+   #ifndef ONLINE_JUDGE
+   freopen("INPUT.txt", "r", stdin);
+   freopen("OUTPUT.txt", "w", stdout);
+   #endif
 }
 
 int32_t main() {
