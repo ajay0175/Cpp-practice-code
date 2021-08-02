@@ -1,1 +1,0 @@
- typeof bool ,typeof str, typeof object);
