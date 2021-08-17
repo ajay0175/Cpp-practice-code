@@ -19,14 +19,14 @@ void io(){
    #endif
 }
 
-int32_t main() {
+signed main() {
 
    io();
 
-   int t;
-   cin>>t;
-   while(t--){
+   // int t;
+   // cin>>t;
+   // while(t--){
      
-   }
+   // }
    return 0;
 }
