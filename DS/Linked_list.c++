@@ -211,7 +211,7 @@ signed main() {
   auto e = l.insert(l.head , 12);
   l.print_iter();
 
-  cout<< l.size << '\n';
+  cout<< l.size << '\n'; // current sizre of Linded List 
 
   l.pop(e);
   l.print_iter();
