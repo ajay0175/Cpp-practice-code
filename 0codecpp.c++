@@ -23,10 +23,10 @@ signed main() {
 
    io();
 
-   // int t;
+   int t = 1;
    // cin>>t;
-   // while(t--){
+   while(t--){
      
-   // }
+   }
    return 0;
 }
