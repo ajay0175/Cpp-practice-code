@@ -1,3 +1,7 @@
-Factorial of 0 is: 1
-Factorial of 5 is: 120
-Factorial of 10 is: 3628800
+Name: Ajay
+Age: 18
+Gender: 1
+Not Same
+Destructor
+Destructor
+Destructor
