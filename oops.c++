@@ -56,8 +56,8 @@ class student{
        name = s;
     }
 
-    void getname(){
-        cout<<name<<'\n';
+    string getname(){
+       return name;
     }
 
     void print(){
