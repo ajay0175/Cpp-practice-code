@@ -21,7 +21,7 @@ void io(){
 
 // Funtion Overloading
 
-class polymorphism
+class Funtion_Overloading
 {
 public:
    void fun()
@@ -40,13 +40,48 @@ public:
    }
 };
 
+// Operator Overloading
+
+class Operator_Overloading
+{
+ private:
+   int real, imag;
+ public:
+   Operator_Overloading(int r = 0, int i = 0)
+   {
+      real = r;
+      imag = i;
+   }
+
+   Operator_Overloading operator + (Operator_Overloading const &obj)
+   {
+      Operator_Overloading res;
+      res.imag = imag + obj.imag;
+      res.real = real + obj.real;
+      return res;
+   }
+
+   void display()
+   {
+      cout << real <<" + i" << imag <<endl;
+   }
+};
+
+
 int32_t main() {
   io();
 
-  polymorphism p;
-  p.fun();
-  p.fun(4ll); // int is define has a long long
-  p.fun(4.0);
+//   Funtion_Overloading fo;
+//   fo.fun();
+//   fo.fun(4ll); // int is define has a long long
+//   fo.fun(4.0);
+
+   Operator_Overloading op1(10ll, 3ll);
+   Operator_Overloading op2(4ll, 3ll);
+   Operator_Overloading op3 = op1 + op2;
+   op1.display();
+   op2.display();
+   op3.display();
     
    return 0;
 }
