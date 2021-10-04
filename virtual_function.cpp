@@ -6,13 +6,13 @@ class base {
     }
 };
 class  derived1: public base {
-    public: void display(){
-        cout<<"in derived1";
+    public: virtual void display(){
+        cout<<"in derived1\n";
     }
 };
 class derived2:public base{
     public:void display(){
-        cout<<"in derived2";
+        cout<<"in derived2\n";
 
     }
 };
@@ -25,5 +25,7 @@ int main()
     ptr->display();
     ptr=&obj2;
     ptr->display();
+    obj1.display();
+    ptr->display();
     return 0;
-    };
+}
