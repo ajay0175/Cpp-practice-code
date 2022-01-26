@@ -53,7 +53,15 @@ int32_t main() {
         }
         cout << '\n';
     }
-    
 
-//    return 0;
+    // Releasing memory
+
+    for (int i = 0; i < n; i++)
+    {
+        delete []  arr[i];
+    }
+
+    delete []arr;
+    
+   return 0;
 }
