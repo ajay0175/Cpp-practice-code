@@ -92,13 +92,14 @@ void merge_sort(int *arr, int s, int e)
 
 }
 
-signed main() {
+int32_t main() {
 
    io();
 
    int t = 1;
    // cin>>t;
    while(t--){
+      // cout << " h ii" ;
      int n; cin >> n;
      int arr[1005];
 
