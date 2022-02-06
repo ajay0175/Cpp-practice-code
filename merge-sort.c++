@@ -69,6 +69,9 @@ void merge(int *arr, int s, int e)
    {
       arr[mainarrayidx++] = second[idx2++];
    }
+
+   delete []first;
+   delete []second;
    
 }
 
