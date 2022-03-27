@@ -1,7 +1,0 @@
-Name: Ajay
-Age: 18
-Gender: 1
-Not Same
-Destructor
-Destructor
-Destructor
