@@ -60,7 +60,7 @@ signed main() {
   }
 
   // Adjacency list format
-  vector<vi>adj_list(n+1);
+  vector<int>adj_list(n + 1);
 
   while(m--)
   {
